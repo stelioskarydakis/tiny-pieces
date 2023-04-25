@@ -1,0 +1,42 @@
+.home-title {
+  text-align: center;
+  padding: 20px;
+}
+.git-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 24px;
+  z-index: 10;
+  color: #000;
+}
+.git-icon:hover,
+.git-icon:focus {
+  color: var(--primary-400);
+}
+.home-page .flex {
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 20px;
+}
+.home-page a {
+  padding: 10px;
+  color: var(--textColor);
+  border: 1px solid var(--primary-600);
+  border-radius: 50%;
+  border-radius: var(--borderRadius);
+  width: 100%;
+  text-align: center;
+}
+.home-page a span {
+  display: block;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.home-page a:hover,
+.home-page a:focus {
+  background-color: var(--primary-400);
+  color: var(--textColor);
+  transition: var(--transition);
+  box-shadow: var(--shadow-2);
+}
