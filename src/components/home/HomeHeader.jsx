@@ -7,7 +7,12 @@ const HomeHeader = () => {
       <div className="description-home">
         A collection of useful pieces for every project
       </div>
-      <a href="" target="_blank" rel="noopener noreferrer" className="git-icon">
+      <a
+        href="https://github.com/stelioskarydakis/tiny-pieces"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="git-icon"
+      >
         <AiFillGithub />
       </a>
     </div>
